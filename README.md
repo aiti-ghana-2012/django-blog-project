@@ -1,6 +1,10 @@
 Blog Project
 =============
 
+Current Instructions:
+----------------
+`instructions/part_2.pdf`
+
 
 Hi Everyone!
 ------------
