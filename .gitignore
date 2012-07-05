@@ -1,0 +1,17 @@
+*.pyc
+*.pyo
+
+
+#for pdfs
+._*.pdf
+
+#for gedit
+*~
+~*
+
+
+#and now the local sqlite database
+*.db
+*.sqlite
+
+
