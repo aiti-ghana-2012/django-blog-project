@@ -3,7 +3,7 @@ Blog Project
 
 Current Instructions:
 ----------------
-`instructions/part_2.pdf`
+`instructions/part_3.pdf`
 
 
 Hi Everyone!
@@ -12,6 +12,12 @@ Hi Everyone!
 This is going to be your repository for a project that spans
 our time learning django.
 
+Instructor Code
+--------------
+
+Instead of copy and pasting from the PDF, it will
+be easier and avoid problems if you simply copy and paste
+from real code. Note that it uses 4 spaces for indentation.
 
 Getting Started
 ---------------
