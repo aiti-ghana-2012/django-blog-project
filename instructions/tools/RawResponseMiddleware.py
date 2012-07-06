@@ -14,7 +14,7 @@ class RawResponseMiddleware(object):
         Will NOT do so unless status code is 200 
         """
         
-        if not (request.path.startswith('/admin') and response.status != 200):
+        if (not request.path.startswith('/admin')) and response.status_code == 200):
             escaped_content = (response.content
                                 .replace('&','&amp;')
                                 .replace('<','&lt;')
