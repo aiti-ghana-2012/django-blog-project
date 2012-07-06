@@ -9,4 +9,5 @@ urlpatterns = patterns('',
     url(r'^$', 'blog.views.home'),
     url(r'^posts/$', 'blog.views.post_list'),
     url(r'^posts/(?P<id>\d+)/((?P<showComments>.*)/)?$', 'blog.views.post_detail'),
+    ## add your url here
 )
