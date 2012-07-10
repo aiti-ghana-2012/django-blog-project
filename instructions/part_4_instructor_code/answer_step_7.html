@@ -1,0 +1,33 @@
+
+<!--
+you still need to add the code 
+that makes this template extend the base template, and also
+the code that makes the given code override the content block
+-->
+
+
+{% for post in posts %}
+	<h2>
+		<a href="/blog/posts/{{ post.id }}/True"><!-- this is the worst, but simplest way to link to the specific post.
+                                                     Read the document mentioned in the instructions for more info-->
+			{{ post.title }}
+		</a>
+	</h2>
+	
+	<ul>
+		<li>
+			Created: {{ post.created }}
+		</li>
+		
+		<li>
+			Last updated: {{ post.updated }}
+		</li>
+		
+		<li>
+			{{ post.body_first_60 }} <!-- replace body_first_60 with whatever you called your
+                                          method to get the first 60 characters of the body!-->
+		</li>
+		
+	</ul>
+	
+{% endfor %}

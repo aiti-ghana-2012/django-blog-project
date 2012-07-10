@@ -3,7 +3,7 @@ Blog Project
 
 Current Instructions:
 ----------------
-`instructions/part_3.pdf`
+`instructions/part_4.pdf`
 
 
 Hi Everyone!
