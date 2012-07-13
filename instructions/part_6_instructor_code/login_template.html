@@ -1,0 +1,20 @@
+<!--
+the template for your login page
+This should be places in the templates/reg
+folder. Name it what you will, but make sure
+that the view function has the correct path
+
+Also, remember that for this template
+the lab has you make some changes
+-->
+
+
+
+{% extends "blog/base.html" %}
+
+{% block content %}
+  <form action="." method="post">
+     {{ form.as_p }}
+     <input type="submit" value="Submit" value="Login!" />
+  </form>
+{% endblock %}
